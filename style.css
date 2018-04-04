@@ -27,7 +27,12 @@
 .xy{
   display: flex;
 }
-
+#searchbar{
+  position:relative;
+  width:1040px;
+  height:auto;
+  justify-content: center;
+}
 
 
 
@@ -37,4 +42,10 @@
   display: flex;
   justify-content: center;
   box-shadow: 1px 1px 1px grey;
+}
+
+}
+.formulaire .champ{
+  width:600px;
+  height:35px;
 }
