@@ -1,0 +1,75 @@
+header a{
+  text-decoration:underline;
+}
+#conteneurheader
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -50px;
+}
+header a{
+
+  color: rgba(0,0,0,0.87);
+  display:inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px
+}
+header a p{color:white;}
+
+header a:link
+{
+  text-decoration: none;
+}
+
+
+header a:hover
+{
+text-decoration: underline;
+}
+.headerconnexion
+{
+display:inline-block;
+text-emphasis-color: white;
+padding: 6px 0 6px 0;
+color: white;
+font-family: arial,sans-serif;
+font-size: 13px;
+font-weight: 700;
+background: #4387FD;
+border-radius:2px;
+width:90px;
+border:none;
+text-align: center;
+cursor:default;
+}
+.headerconnexion:active
+{
+  color: white;
+background: blue;
+}
+
+.bl
+{
+  color:white;
+}
+
+.elementheader:hover
+{
+  opacity: 0.5
+}
+
+
+}
+.elementheader1
+{
+color:rgba(0,0,0,0.87);
+text-decoration:none
+text-decoration:none;}
+
+
+.elementheader2
+{
+color:rgba(0,0,0,0.87);
+text-decoration:none}
